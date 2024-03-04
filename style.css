@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: #732f74;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+}
+
+#profilepic {
+  position: fixed;
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  margin: 50px 47% 0 53%;
+  border: medium solid white;
+}
+
+body {
+  background-color: #f6f9ec;
+}
+
+#botões {
+  text-decoration: none;
+  position: fixed;
+  margin: 190px 50% 0 50%;
+
+}
+
+
+
+.botões {
+  text-decoration: none;
+  background-color: #c854e8;
+  border: hidden;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  width: 150px;
+  display: block;
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 3%;
+}
+
+#caixa-bio {
+  text-align: justify;
+  border-radius: 7%;
+  top: initial;
+  background-color: #edeeed;
+  color: #3f884d;
+  margin-top: 23%;
+  margin-left: 2%;
+  margin-right: 60%;
+  overflow: auto;
+  height: 50%;
+  width: 67%;
+}
+
+#bio {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
