@@ -15,9 +15,9 @@ header {
 #profilepic {
   position: fixed;
   border-radius: 50%;
-  height: 110px;
-  width: 110px;
-  margin: 50px 47% 0 53%;
+  height: 150px;
+  width: 150px;
+  margin: 50px 50% 0 50%;
   border: medium solid white;
 }
 
@@ -26,16 +26,15 @@ body {
 }
 
 #botões {
+  text-align: center;
   text-decoration: none;
   position: fixed;
-  margin: 190px 50% 0 50%;
-
+  margin: 300px 50% 0 50%;
 }
 
 
 
 .botões {
-  text-decoration: none;
   background-color: #c854e8;
   border: hidden;
   color: white;
@@ -43,7 +42,7 @@ body {
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  width: 150px;
+  width: 300px;
   display: block;
 }
 
@@ -66,8 +65,3 @@ h2 {
   width: 67%;
 }
 
-#bio {
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
-}
