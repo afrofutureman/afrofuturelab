@@ -1,6 +1,11 @@
-html {
+html, body {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header {
@@ -13,12 +18,12 @@ header {
 }
 
 #profilepic {
-  position: fixed;
   border-radius: 50%;
   height: 150px;
   width: 150px;
-  margin: 50px 50% 0 50%;
+  margin: 50px auto 0;
   border: medium solid white;
+  display: block;
 }
 
 body {
@@ -27,41 +32,19 @@ body {
 
 #botões {
   text-align: center;
-  text-decoration: none;
-  position: fixed;
-  margin: 300px 50% 0 50%;
+  position: relative;
+  margin: 0 auto;
 }
-
-
 
 .botões {
   background-color: #c854e8;
-  border: hidden;
+  border: none;
   color: white;
   padding: 15px 32px;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  width: 300px;
+  width: 250px;
   display: block;
+  margin: 0 auto;
 }
-
-h2 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin: 3%;
-}
-
-#caixa-bio {
-  text-align: justify;
-  border-radius: 7%;
-  top: initial;
-  background-color: #edeeed;
-  color: #3f884d;
-  margin-top: 23%;
-  margin-left: 2%;
-  margin-right: 60%;
-  overflow: auto;
-  height: 50%;
-  width: 67%;
-}
-
