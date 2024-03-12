@@ -60,6 +60,10 @@ body {
 .botões:hover {
   background-color: #006b3f;
 }
+.botões:disabled {
+  opacity: 0.8; /* Reduz a opacidade do botão desabilitado */
+  cursor: not-allowed; /* Altera o cursor para indicar que o botão está desabilitado */
+}
 
 footer {
   background-color: #000;
